@@ -1,0 +1,115 @@
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.beijing {
+	height: 13.34rem;
+	width: 100%;
+	background-image: url('../img/beijing@2x.png');
+	background-size: cover;
+}
+.beijing .diyi{
+	height: 0.88rem;
+	width: 100%;
+	float: left;
+	margin-top: 0.4rem;
+	/* background: pink; */
+}
+.beijing .diyi img{
+	height: 0.44rem;
+	height: 0.44rem;
+	float: left;
+	margin-left: 0.24rem;
+	margin-top: 0.22rem;
+}
+.beijing .diyi .wenzi{
+	font-size: 0.36rem;
+	color: #fff;
+	line-height: 0.88rem;
+	margin-left: 3.5rem;
+}
+
+.beijing .box{
+	width: 100%;
+	height:2.92rem; 
+	margin-top: 1.5rem;
+	margin-left: 1.1rem;
+	float: left;
+	position: relative;
+}
+.beijing .box input{
+	width: 5rem;
+	height: 0.8rem;
+	background: #fff;
+	border-radius: 0.1rem;
+	border: #fff solid 0rem;
+	font-size: 0.26rem;
+	padding-left: 0.4rem;
+}
+.beijing .box img{
+	width: 0.23rem;
+	height: 0.25rem;
+	display: block;
+	position: absolute;
+	top:0.7rem ;
+	left:0.1rem ;
+}
+.beijing .box .mima1{
+	top:1.95rem ;
+}
+.beijing .box .mima2{
+	top:3.21rem ;
+}
+.beijing .dier{
+	width: 100%;
+	height: 0.3rem;
+	float: left;
+	margin-top: 1rem;
+	font-size: 0.26rem;
+	color: #fff;
+	float: left;
+	margin-left: 4.3rem;
+}
+
+.beijing .zhuce{
+	height: 0.88rem;
+	width: 5.1rem;
+	float: left;
+	margin-left: 1.25rem;
+	margin-top: 1.3rem;
+	background: #ae37eb;
+	border-radius: 0.45rem;
+	border: #fff solid 0.03rem;
+	font-size: 0.32rem;
+	color: #fff;
+	line-height: 0.88rem;
+	text-align: center;
+}
+
+.beijing .disan {
+	height: 2rem;
+	width: 100%;
+	float: left;
+	margin-top: 0.7rem;
+}
+.beijing .disan .kuai{
+	height: 0.22rem;
+	width: 0.22rem;
+	/* background: pink; */
+	border: #fff solid 0.01rem;
+	border-radius: 0.02rem;
+	float: left;
+	margin-left: 2rem;
+	margin-top: 0.02rem;
+}
+.beijing .disan .wenzi{
+	height: 0.3rem;
+	width: 100%;
+	font-size: 0.28rem;
+	color: #fff;
+	margin-left: 0.5rem;
+}

@@ -1,0 +1,188 @@
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.top{
+	width: 100%;
+	height: 1.76rem;
+	position: relative;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: -webkit-linear-gradient(left,rgba(93,48,216,1),rgba(178,55,238,1));
+}
+.top img{
+	width: 0.44rem;
+	height: 0.44rem;
+	position: absolute;
+	top: 0.24rem;
+	left: 0.24rem;
+}
+.top .biaoti{
+	width: 1.6rem;
+	height: 0.4rem;
+	color: #fff;
+	font-size: 0.36rem;
+	float: left;
+	margin-top: 0.24rem;
+	margin-left: 2.94rem;
+}
+
+.top .xiaobt{
+	width: 3.5rem;
+	height: 0.5rem;
+	border-radius: 0.1rem;
+	border: #fff solid 0.02rem;
+	float: left;
+	margin-left: 1.8rem;
+	margin-top: 0.4rem;
+}
+.top .yuanjiao{
+	width: 1.75rem;
+	height: 0.5rem;
+	background: #fff;
+	border-top-right-radius: 0.08rem;
+	border-bottom-right-radius: 0.08rem;
+	position: absolute;
+	top: 1.05rem;
+	left: 3.56rem;
+	color: #5d30b8;
+	font-size: 0.22rem;
+	line-height: 0.5rem;
+	text-align: center;
+}
+.top .xiaobt .wenzi1{
+	width: 1.1rem;
+	height: 0.25rem;
+	color: #fff;
+	font-size: 0.22rem;
+	float: left;
+	margin-top: 0.12rem;
+	margin-left: -1.35rem;
+}
+.top .xiaobt .fenge{
+	height: 0.5rem;
+	width: 0.02rem;
+	float: left;
+	background: #fff;
+	margin-left: 1.75rem;
+}
+.top .xiaobt .wenzi2{
+	width: 1.1rem;
+	height: 0.25rem;
+	color: #5d30b8;
+	font-size: 0.22rem;
+	float: left;
+	margin-top: 0.12rem;
+	margin-left: 0.37rem;
+}
+
+.kong{
+	width: 100%;
+	height: 1.8rem;
+}
+.neirong{
+	width: 100%;
+	height: 11rem;
+	background: #f6f6f6;
+	float: left;
+} 
+/* .neirong .neikuan{
+	width: 7.02rem;
+	height: 13.34rem;
+} */ 
+.neirong .neikuan .kuai{
+	width: 100%;
+	height: 2.43rem;
+	background: #fff;
+	float: left;
+	margin-top: 0.1rem;
+}
+.neirong .kuai img{
+	height: 1.59rem;
+	width: 2.15rem;
+	float: left;
+	margin-left:0.24rem;
+	margin-top: 0.25rem;
+
+}
+.neirong .kuai .gequ{
+	width: 5rem;
+	height: 1.6rem;
+	float: left;
+	margin-top: 0.25rem;
+	/* background: pink; */
+}
+.neirong .kuai .gequ .di1{
+	height: 0.4rem;
+	width: 5rem;
+	float: left;
+	margin-top: 0.2rem;
+	/* margin-left: 0.6rem; */
+}
+.neirong .kuai .gequ .di1 .wenzi1 {
+	font-size: 0.3rem;
+	color: #6130d9;
+	float: left;
+	/* margin-top: 0.2rem; */
+	margin-left: 0.6rem;
+}
+.neirong .kuai .gequ .di1 .wenzi2 {
+	font-size: 0.3rem;
+	color: #000;
+	float: left;
+	/* margin-top: 0.2rem; */
+	margin-left: 0.3rem;
+}
+.neirong .kuai .gequ .di1 .wenzi3 {
+	font-size: 0.3rem;
+	color: #555;
+	float: left;
+	/* margin-top: 0.2rem; */
+	margin-left: 0.2rem;
+}
+.neirong .kuai .jishou{
+	height: 0.3rem;
+	width: 3rem;
+	float: left;
+	margin-top: 0.1rem;
+}
+.neirong .kuai .jishou .yi {
+	font-size: 0.24rem;
+	color: #000;
+	float: left;
+	/* margin-top: 0.2rem; */
+	margin-left: 0.2rem;
+}
+.neirong .kuai .jishou .er {
+	font-size: 0.24rem;
+	color: #5d30d8;
+	float: left;
+	/* margin-top: 0.2rem; */
+	margin-left: 0.1rem;
+}
+.neirong .kuai .jishou .san {
+	font-size: 0.24rem;
+	color: #000;
+	float: left;
+	/* margin-top: 0.2rem; */
+	margin-left: 0.1rem;
+}
+.bofang img{
+	width: 100%;
+	height: 1.16rem;
+	
+	bottom: 0;
+}
+.bofang{
+	width: 100%;
+	height: 1.16rem;
+	/* background: red; */
+	position: fixed;
+	
+	bottom: 0;
+}

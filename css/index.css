@@ -1,0 +1,351 @@
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+
+.daohang{
+	width: 100%;
+	height: 0.88rem;
+	background: -webkit-linear-gradient(left,rgba(93,48,216,1),rgba(178,55,238,1));
+	/* position: fixed; */
+	z-index: 8;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+.daohang .xuanxiang{
+	width: 0.88rem;
+	height: 0.88rem;
+	/* background: red; */
+	float: left;
+/* 	margin-left: 0.24rem; */
+	background-image: url('../img/3@2x.png');
+	background-position: center;
+	background-size: 0.88rem 0.88rem;
+}
+.daohang .ting{
+	width: 0.80rem;
+	height: 0.88rem;
+	font-size: 0.36rem;
+	color: #fff;
+	line-height: 0.88rem;
+	text-align: center;
+	/* background: pink; */
+	float: left;
+	margin-left: 1.90rem;
+}
+.daohang .dongtai{
+	width: 1.20rem;
+	height: 0.88rem;
+	font-size: 0.36rem;
+	color: #fff;
+	line-height: 0.88rem;
+	text-align: center;
+	/* background: red; */
+	float: left;
+	margin-left: 0.28rem;
+}
+.daohang .search{
+	width: 0.88rem;
+	height: 0.88rem;
+	/* background: red; */
+	float: right;
+/* 	margin-right: 0.24rem; */
+	background-image: url('../img/0.2.png');
+	background-position: center;
+	background-size: 0.88rem 0.88rem;
+}
+.daohang .xuanzhong{
+	width: 0.80rem;
+	height: 0.05rem;
+	background: #fff;
+	position: absolute;
+	top: 0.83rem;
+	left: 2.78rem;
+}
+
+.ooo{
+	width: 100%;
+	height: 0.88rem;
+
+}
+.banner{
+	width: 7.50rem;
+	height: 3.00rem;
+	margin-top: 0.05rem;
+	/* margin-bottom: 3.45rem; */
+}
+.banner img{
+	width: 100%;
+	height: 100%;
+}
+/* .main {
+	width: 100%;
+	height: auto;
+	background: #f6f6f6;
+} */
+.main .neikuan{
+	width: 7.02rem;
+	height: auto;
+	/* background: pink; */
+	margin-top: 0.44rem;
+	margin-left: 0.24rem;
+}
+.main .neikuan .diyi{
+	width: 100%;
+	height: 1.30rem;
+	/* background: pink; */
+}
+.main .neikuan .diyi .kuai{
+	width: 1rem;
+	height: 1.30rem;
+	/* background: green; */
+	margin-left: 0.9rem;
+	float: left;
+}
+.main .neikuan .diyi .kuai:nth-child(1){
+	margin-left: 0.16rem;
+}
+.main .neikuan .diyi .kuai img{
+	width: 0.88rem;
+	height: 0.88rem;
+	margin-left: 0.06rem;
+	float: left;
+}
+.main .neikuan .diyi .kuai a{
+	font-size: 0.24rem;
+	color: #000;
+	float: left;
+	margin-top: 0.15rem;
+}
+
+.main .neikuan .dier{
+	width: 100%;
+	height: 8.50rem;
+	margin-top: 0.59rem;
+}
+.dier .biaoti{
+	height: 0.60rem;
+	width: 100%;
+}
+.dier .biaoti .zhongwen{
+	width: 1.22rem;
+	height: 0.28rem;
+	background-image: url('../img/1.png');
+	background-position: center;
+	background-size: 1.22rem 0.28rem;
+	float: left;
+	margin-left: 2.9rem;
+}
+.dier .biaoti .yingwen{
+	width: 3.39rem;
+	height: 0.31rem;
+	background-image: url('../img/11.png');
+	background-position: center;
+	background-size: 3.39rem 0.31rem;
+	float: left;
+	margin-top: 0.1rem;
+	margin-left: 1.8rem;
+}
+.main .neikuan .dier .xia{
+	height: 8.8rem;
+	width: 100%;
+	/* background: blue; */
+	margin-top: 0.30rem;
+}
+.dier .xia .kuai{
+	height: 3.60rem;
+	width: 2rem;
+	/* background: blue; */
+	float: left;
+	margin-left: 0.5rem;
+	margin-bottom: 0.3rem;
+
+}
+    
+.main .neikuan .dier .kuai:nth-child(1){
+	margin-left: 0;
+}
+.main .neikuan .dier .kuai:nth-child(4){
+	margin-left: 0;
+}
+.main .neikuan .dier .kuai img{
+	height: 2.5rem;
+	width: 2rem;
+	float: left;
+
+}
+.main .neikuan .dier .kuai .wenzi1{
+	font-size: 0.24rem;
+	color: #000;
+	float: left;
+	margin-top: 0.05rem;
+}
+.main .neikuan .dier .kuai .wenzi2{
+	font-size: 0.20rem;
+	color: #848484;
+	float: left;
+	margin-top: 0.05rem;
+}
+.main .neikuan .dier .kuai .wenzi3{
+	font-size: 0.20rem;
+	color: #846ade;
+	float: left;
+	margin-top: 0.1rem;
+}
+
+.main .neikuan .disan{
+	width: 100%;
+	height: 5.8rem;
+	margin-top: 0.5rem;
+}
+.disan .biaoti{
+	height: 0.60rem;
+	width: 100%;
+}
+.disan .biaoti .zhongwen{
+	width: 1.53rem;
+	height: 0.28rem;
+	background-image: url('../img/2.png');
+	background-position: center;
+	background-size: 1.53rem 0.28rem;
+	float: left;
+	margin-left: 2.8rem;
+}
+.disan .biaoti .yingwen{
+	width: 3.93rem;
+	height: 0.35rem;
+	background-image: url('../img/22.png');
+	background-position: center;
+	background-size: 3.93rem 0.35rem;
+	float: left;
+	margin-top: 0.1rem;
+	margin-left: 1.5rem;
+}
+.disan .xia{
+	width: 100%;
+	height: 3rem;
+}
+.disan .xia .kuai{
+	width: 100%;
+	height: 1.2rem;
+	float: left;
+	margin-top: 0.2rem;
+	/* background: green; */
+	position: relative;
+	box-shadow: 0 0.1rem 0.1rem rgba(0, 0, 0, 0.1);
+}
+.disan .xia .kuai img{
+	height: 1rem;
+	width: 1.35rem;
+	float: left;
+	margin-top: 0.1rem;
+	margin-left: 0.1rem;
+}
+.disan .xia .kuai .wenzi1{
+	font-size: 0.3rem;
+	color: #000;
+	float: left;
+	margin-top: 0.34rem;
+	margin-left: 0.34rem;
+}
+.disan .xia .kuai .wenzi2{
+	font-size: 0.26rem;
+	color: #5d30d8;
+	float: left;
+	position: absolute;
+	top: 0.7rem;
+	left: 1.78rem;
+	/* margin-top: 0.34rem;
+	margin-left: 0.34rem; */
+}
+.disan .xia .kuai .wenzi3{
+	font-size: 0.26rem;
+	color: #595959;
+	float: left;
+	/* margin-top: 0.34rem;
+	margin-left: 0.34rem; */
+	position: absolute;
+	top: 0.7rem;
+	left: 2.35rem;
+}
+.disi{
+	width: 100%;
+	height: 6.5rem;
+}
+.disi .biaoti{
+	height: 0.60rem;
+	width: 100%;
+}
+.disi .biaoti .zhongwen{
+	width: 0.58rem;
+	height: 0.28rem;
+	background-image: url('../img/3.png');
+	background-position: center;
+	background-size: 0.58rem 0.28rem;
+	float: left;
+	margin-left: 3.3rem;
+}
+.disi .biaoti .yingwen{
+	width: 3.12rem;
+	height: 0.34rem;
+	background-image: url('../img/33.png');
+	background-position: center;
+	background-size: 3.12rem 0.34rem;
+	float: left;
+	margin-top: 0.1rem;
+	margin-left: 2rem;
+}
+.disi .xia{
+	width: 100%;
+	height: 5rem;
+}
+.disi .neirong .kuai{
+	width: 100%;
+	height: 2.5rem;
+	float: left;
+	margin-top: 0.2rem;
+	/* background: green; */
+}
+.disi .neirong .kuai img{
+	height: 2rem;
+	width: 100%;
+	float:left;
+}
+.disi .neirong .kuai .wenzi{
+	font-size: 0.3rem;
+	color: #5c5b5c;
+	float: left;
+	margin-top: 0.1rem;
+	margin-left: 0.1rem;
+}
+
+.bofang{
+	width: 100%;
+	height: 1.1rem;
+	/* position: fixed; */
+	/* background: green; */
+}
+.bofang .jindutiao1{
+	width: 100%;
+	height: 0.05rem;
+	background: #5d31d8;
+}
+.bofang .jindutiao2{
+	width: 5rem;
+	height: 0.05rem;
+	background: #ad93f4;
+	/* position: absolute; */
+	float: left;
+
+}
+.bofang img{
+	width: 100%;
+	height: 1.16rem;
+	position: fixed;
+	bottom: 0;
+}
